@@ -1,4 +1,5 @@
-#Konversi Uang Sederhana Ikmal Ali Azhari NIM 2309116087 
+nama = input('Masukkan Nama: ')
+nim = input('Masukkan Nim: ')
 print('=' * 100)
 print('Jasa Konversi Uang')
 print('\t [1. Rupiah ke USD]')
@@ -17,13 +18,13 @@ print('=' * 100)
 
 if operasi == '1':
   hasil = bilangan_1 * 0.00008
-  print(f'Hasil Dari Nominal Rp.{bilangan_1} ke Dollar adalah {hasil}')
+  print(f'Hai! {nama} ganteng tampan rupawan dengan nim {nim}, Hasil Dari Nominal Rp.{bilangan_1} ke Dollar adalah {hasil}')
 elif operasi == '2':
   hasil = bilangan_1 * 0.00876
-  print(f'Hasil Dari Nominal Rp.{bilangan_1} ke Yen adalah {hasil}')
+  print(f'Hai! {nama} ganteng tampan rupawan dengan nim {nim}, Hasil Dari Nominal Rp.{bilangan_1} ke Yen adalah {hasil}')
 elif operasi == '3':
   hasil = bilangan_1 * 0.00032
-  print(f'Hasil Dari Nominal Rp.{bilangan_1} ke Ringgit Malaysia adalah {hasil}')
+  print(f'Hai! {nama} ganteng tampan rupawan dengan nim {nim}, Hasil Dari Nominal Rp.{bilangan_1} ke Ringgit Malaysia adalah {hasil}')
 
   print(f'Silahkan Input Ulang')
   #ini sebagai output

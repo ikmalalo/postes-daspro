@@ -10,6 +10,7 @@ print('=' * 100)
 #ini sebagai display
 
 operasi = input('Pilih Mata Uang (1,2,3): ')
+
 bilangan_1 = eval(input('Masukkan Nominal Uang Anda : '))
 #ini sebagai input
 
@@ -24,6 +25,10 @@ elif operasi == '2':
   print(f'Hai! {nama} ganteng tampan rupawan dengan nim {nim}, Hasil Dari Nominal Rp.{bilangan_1} ke Yen adalah {hasil}')
 elif operasi == '3':
   hasil = bilangan_1 * 0.00032
+  print(f'Hai! {nama} ganteng tampan rupawan dengan nim {nim}, Hasil Dari Nominal Rp.{bilangan_1} ke Ringgit Malaysia adalah {hasil}')
+if operasi == '4':
+  print(f'Gagal Mengkonversi Uang Anda, Coba Pilih ulang yang sesuai Di atas!')
+  #ini sebagai output
   print(f'Hai! {nama} ganteng tampan rupawan dengan nim {nim}, Hasil Dari Nominal Rp.{bilangan_1} ke Ringgit Malaysia adalah {hasil}')
 
   print(f'Silahkan Input Ulang')
